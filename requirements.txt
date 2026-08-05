@@ -1,0 +1,29 @@
+# LLM / Agent
+langgraph
+langchain-core
+langchain-openai
+langchain-ollama
+langchain-huggingface
+langchain-chroma
+langchain-tavily
+python-dotenv
+
+# 데이터 수집
+yfinance
+dart-fss
+ddgs
+requests
+beautifulsoup4
+trafilatura
+playwright
+
+# 검색 / 임베딩
+sentence-transformers
+chromadb
+rapidfuzz
+
+# 문서 / 시각화
+python-docx
+pandas
+matplotlib
+networkx
