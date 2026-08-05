@@ -27,6 +27,10 @@ flowchart LR
     F --> G([END])
 ```
 
+코드에 정의된 `StateGraph`를 `networkx`로 시각화한 실제 그래프입니다 (`visualize_graph()`).
+
+![LangGraph StateGraph](results/agent_graph.png)
+
 | 노드 | 역할 | 핵심 기술 |
 |---|---|---|
 | `Decision_Company` | 회사명·힌트 → 종목코드/티커 확정. DART 기업 목록에서 유사도 매칭, 코스피/코스닥 접미사(`.KS`/`.KQ`) 판별 | `dart-fss`, `rapidfuzz`, BeautifulSoup |
